@@ -7,7 +7,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 #home,#lost,#work {
-  background-color:#FFF;
+  background-color:#FCFCFC;
   min-height:100%;
   display:-ms-flexbox
 }
@@ -50,7 +50,10 @@ a {
 }
 
 a:hover {
-  color:#0BB793;
+  #color:#0BB793;
+  background-image: linear-gradient(90deg, #FF5725 3%, #FF354C 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .wrap {
