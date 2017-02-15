@@ -1,30 +1,30 @@
 h1,html,p {
-  font-size:16px
+  font-size:16px;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-weight:400
+  font-weight:400;
 }
 
 #home,#lost,#work {
-  background-color:#FCFCFC;
+  background-color: #FCFCFC;
   min-height:100%;
-  display:-ms-flexbox
+  display:-ms-flexbox;
 }
 
 #home,#home header,#lost,#lost header,#work,#work header {
-  display:-ms-flexbox
+  display:-ms-flexbox;
 }
 
 #home footer ul,#lost footer ul,#work footer ul {
   display:inline-block;
   list-style:none;
-  padding:0
+  padding:0;
 }
 
 #home footer li,#lost footer li,#work footer li {
   float:left;
-  padding-right:30px
+  padding-right:30px;
 }
 
 html {
